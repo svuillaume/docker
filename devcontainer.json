@@ -1,0 +1,12 @@
+{
+  "name": "Terraform AWS DevContainer",
+  "image": "samv-devcontainer",
+  "mounts": [
+    "source=${env:HOME}/.aws,target=/root/.aws,type=bind"
+  ],
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "postCreateCommand": "terraform -install-autocomplete"
+}
+
