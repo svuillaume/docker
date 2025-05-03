@@ -1,0 +1,6 @@
+✅ Summary
+Command	Use Case	Key Action
+make init	Local development	Serve docs locally with symlink
+make deploy	Publish to GitHub Pages	Copy README and push to gh-pages branch
+
+
