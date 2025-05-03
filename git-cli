@@ -1,0 +1,37 @@
+🛠️ 1. Initial Setup
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+
+📁 2. Start a Project
+git init                 # Initialize a new Git repo
+git clone <repo-url>     # Clone an existing repo
+
+📝 3. Stage and Commit Changes
+git status               # Show modified/unstaged files
+git add <file>           # Stage a file
+git add .                # Stage everything
+git commit -m "Message"  # Commit with a message
+
+🌿 4. Branching
+git branch               # List branches
+git checkout -b <name>   # Create and switch to new branch
+git checkout <name>      # Switch to a branch
+git merge <branch>       # Merge a branch into current one
+
+🔄 5. Push & Pull
+git remote -v            # Show remotes
+git remote add origin <url>  # Add remote repo
+git push -u origin main  # Push to remote (first time)
+git push                 # Push commits
+git pull                 # Pull latest changes
+
+🧠 6. Log and Diff
+git log                  # Show commit history
+git diff                 # Show unstaged changes
+git diff --staged        # Show staged changes
+
+🧹 7. Undoing
+git restore <file>       # Undo changes to file
+git reset HEAD <file>    # Unstage a file
+git revert <commit>      # Revert a commit (safe)
+
